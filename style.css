@@ -1,10 +1,10 @@
-/*color palett #d7e7e9 #2c3037 #49463d */
+/*color palette #d7e7e9 #2c3037 #49463d */
 
 body {
     min-height: 100vh;
     margin: 0;
     display: grid;
-    grid-template-rows: 80px 1fr 60px;
+    grid-template-rows: 300px 1fr 60px;
     font-family: 'Monaco',  'Lucida Console', 'Monospace';
     font-weight: 500;
     background-color: #d7e7e9;
@@ -40,6 +40,16 @@ main nav a {
     align-items:center;
     justify-content: space-around;
     padding: 30px;
+}
+
+header img {
+    width: 200px;
+}
+
+
+a img {
+    height: 200px;
+    padding: 20px;
 }
 
 footer {
