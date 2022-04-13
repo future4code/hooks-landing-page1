@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Square+Peg&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #d7e7e9;
+    color: #2c3037;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+    /* responsividade */
+}
+
+/* Menu */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-bottom: 1px solid rgb(26, 24, 24);
+    position: fixed;
+    width: 100%;
+}
+
+nav img {
+    height: 6em;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Square Peg', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: 30px;
+   
+}
+
+.menu:hover {
+    background-color: rgb(80, 80, 77);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.3s;
+
+}
