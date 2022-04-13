@@ -165,4 +165,42 @@ a:hover{
     color: white;
 }
 
-@media 
+/* ESTILIZAÇÃO DO FOOTER ABAIXO */
+/* #d7e7e9 #2c3037 #49463d */ */
+
+.footerContainer{
+margin: 0 auto;
+width: 100%;
+height: 10vw;
+}
+
+.footerMenus{
+    display: flex;
+    justify-content: space-around;
+    /* list-style-type: none; */
+    align-items: center;
+    background-color: #d7e7e9;
+
+}
+.footItemMenu{
+    list-style: none;
+    text-align: center!important;
+    margin: 20px;
+    color: #49463d; 
+    font-weight: bold;
+
+}
+.footTituloMenu{
+    margin:10px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center!important;
+    color: #49463d;
+}
+
+.footItemMenu:hover{
+    color: black;
+    text-decoration:underline;
+
+}
+/*color palette #d7e7e9 #2c3037 #49463d */
