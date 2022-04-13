@@ -1,3 +1,4 @@
+/*color palette #d7e7e9 #2c3037 #49463d */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Square+Peg&family=Yellowtail&display=swap');
 
 * {
@@ -9,6 +10,9 @@
 }
 
 @media screen and (min-width: 600px) {
+    body {
+        display: grid;
+    }
     /* responsividade */
 }
 
@@ -17,8 +21,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-    border-bottom: 1px solid rgb(26, 24, 24);
+    border-bottom: 1px solid #2c3037;
     position: fixed;
     width: 100%;
 }
@@ -33,8 +36,7 @@ nav img {
     font-family: 'Square Peg', cursive;
     font-size: 2em;
     text-align: center;
-    margin: 30px;
-   
+    margin: 30px;   
 }
 
 .menu:hover {
@@ -45,3 +47,78 @@ nav img {
     transition-duration: 0.3s;
 
 }
+
+.login {
+    border: none;
+}
+
+.telaLogin{
+    border: none;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 45%;
+	left: 50%;
+    border: none;
+    margin-top: 3em;
+}
+
+legend{
+	text-align: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inputLogin{
+	padding: 15px;
+	border-radius: 10px;
+	outline: none;
+	font-size: 18px;
+	margin: 10px;
+}
+
+.inputBox{
+	position: relative;
+
+}
+
+#submit a {
+    background-image: linear-gradient(to right, #d7e7e9 , #49463d);
+	color: #2c3037;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+#submit {
+    border: none;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+/* 
+#submit {
+	background-image: linear-gradient(to right, #d7e7e9 , #49463d);
+	background-color: #49463d;
+    margin-top: 20px;
+	width: 100%;
+	border: none;
+	padding: 15px;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 10px; 
+}
+
+#submit a {
+    color: #d7e7e9;
+} */
