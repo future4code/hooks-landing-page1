@@ -1,15 +1,20 @@
 /*color palette #d7e7e9 #2c3037 #49463d */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Square+Peg&family=Yellowtail&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: #d7e7e9;
     color: #2c3037;
     box-sizing: border-box;
 }
+
+@media screen and (min-width: 600px) {
+    /* responsividade */
+}
+
 /* Menu */
-nav{
+nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -18,11 +23,13 @@ nav{
     position: fixed;
     width: 100%;
 }
-nav img{
+
+nav img {
     height: 5em;
     text-align: center;
 }
-.menu{
+
+.menu {
     text-decoration: none;
     font-family: 'Square Peg', cursive;
     font-size: 2em;
@@ -31,7 +38,7 @@ nav img{
    
 }
 
-.menu:hover{
+.menu:hover {
     background-color: rgb(80, 80, 77);
     color: white;
     cursor: pointer;
@@ -39,8 +46,9 @@ nav img{
     transition-duration: 0.3s;
 
 }
+
 /* Menu principal */
-.container{
+.container {
     background-color:#d7e7e9;
     width: 100vw;
     height: 100vh;
@@ -50,7 +58,7 @@ nav img{
 
 }
 
-.container img{
+.container img {
     height: 80vh;
     margin-top: 6em;
     margin-left: 2em;
@@ -61,11 +69,12 @@ h1{
     font-family: 'Yellowtail', cursive;
 }
 
-.container p{
+.container p {
     font-family: 'Square Peg', cursive;
     font-size:1em;
 }
-.titulo-principal{
+
+.titulo-principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,34 +85,36 @@ h1{
 }
 
 /* Lançamento */
-.conteudo-lançamento{
+.conteudo-lançamento {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     border-top: 1px solid rgb(24, 23, 23);
 }
-.folder{
+
+.folder {
     height: 40em;
     width: 100%;
    
 }
 
-#container2 h3{
+#container2 h3 {
     padding: 20px;
     margin-left: 39%;
     font-size: 2em;
 }
 
-.lançamento{
+.lançamento {
     box-shadow: 5px 5px 5px 5px rgb(100, 89, 89);
     margin-top: 10px;
     margin-bottom: 15px;
 }
 
-.lançamento img{
+.lançamento img {
     width: 20em; 
     
 }
+
 .lançamento:hover{
     background-color: #51386883;
  
