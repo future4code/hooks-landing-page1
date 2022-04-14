@@ -1,0 +1,71 @@
+/*color palette #d7e7e9 #2c3037 #49463d */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Square+Peg&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #2c3037;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #d7e7e9;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+
+}
+
+/* header */
+header nav {
+    border-bottom: 1px solid #2c3037;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 110px;
+    padding-right: 60px;
+    font-family: 'Square Peg', cursive;
+}
+
+#logo {
+    width: 7em;
+    margin-top: 40px;
+    margin-left: 30px;
+    /* margin-bottom: 10px; */
+}
+
+.menuItem {
+    text-decoration: dotted;
+    font-size: 2em;
+    padding-right: 40px;
+}
+
+.menuItem:hover {
+    background-color: #2c3037;
+    color: #d7e7e9;
+    cursor: pointer;
+    padding: 30px;
+    transition-duration: 0.4s;
+}
+
+/* main */
+
+main nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 300px;
+    padding: 30px;
+    background-color: #f2f3f3;
+}
+
+main nav a {
+    font-family: 'Yellowtail', cursive;
+    font-size: 3em;
+}
+p {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2em;
+}
