@@ -106,19 +106,3 @@ fieldset {
 button:hover {
     opacity: 0.8;
 }
-/* 
-#submit {
-	background-image: linear-gradient(to right, #d7e7e9 , #49463d);
-	background-color: #49463d;
-    margin-top: 20px;
-	width: 100%;
-	border: none;
-	padding: 15px;
-	font-size: 15px;
-	cursor: pointer;
-	border-radius: 10px; 
-}
-
-#submit a {
-    color: #d7e7e9;
-} */
