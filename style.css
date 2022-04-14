@@ -137,14 +137,19 @@ a:hover{
 
 /* Comfort Club */
 .club{
-    background-color: black;
     color: white;
     width: 100%;
-    height: 40vh;
+    padding: 30px;
     text-align: center;
+   
+    
     
 }
-
+.texto{
+    border: 2px solid black;
+    padding: 15px;
+   
+}
 .texto h2{
     padding: 30px;
    font-size: 5em;
@@ -180,6 +185,8 @@ height: 10vw;
     /* list-style-type: none; */
     align-items: center;
     background-color: #d7e7e9;
+    border: 1px solid rgb(134, 130, 130);
+    border-radius: 10px ;
 
 }
 .footItemMenu{
@@ -188,11 +195,12 @@ height: 10vw;
     margin: 20px;
     color: #49463d; 
     font-weight: bold;
+    font-size: 10px;
 
 }
 .footTituloMenu{
     margin:10px;
-    font-size: 1.5rem;
+    font-size: 0.8em;
     margin-bottom: 20px;
     text-align: center!important;
     color: #49463d;
@@ -204,3 +212,110 @@ height: 10vw;
 
 }
 /*color palette #d7e7e9 #2c3037 #49463d */
+
+
+
+/* Responsividade */
+@media screen and (max-width: 480px) {
+    /* Menu */
+    
+    nav {
+        width: 100%;
+    }
+    
+    nav img {
+        height: 3em;
+        
+    }
+    
+    .menu {
+        
+        font-size: 1.5em;
+        
+       
+    }
+    /* Conteudo */
+    .container{
+       
+        height: 100vh;
+        width: 100vw;
+    }
+    .titulo-principal{
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .container img{
+        width: 15em;
+        height: 100vh;
+    }
+    /* Lançamento */
+    .folder{
+        width: 100vw;
+        height: 70vh;
+        padding: 0.5em;
+        
+    }
+    .conteudo-lançamento{
+       display:flex ;
+       flex-direction: column;
+       
+       
+       
+    }
+    #container2{
+        margin: 10px;
+    }
+
+    #container2 h3{
+        font-size: 1em;
+        text-align: center;
+       margin-right: 50%;
+
+    }
+
+
+    .lançamento{
+        margin-left: 10%;
+        width: 55vw;
+       
+    }
+    .lançamento img{
+        width: 15em;
+        height: 15em;
+       
+       
+    }
+    .lançamento h2{
+        font-size: 1em;
+    }
+
+    /* Comfort Club */
+    .club{
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        border-top: 3px solid rgb(105, 102, 102);
+        
+    }
+    
+  
+   
+    .texto h2{
+        font-size: 2em;
+        margin-left: 8%;
+        
+       
+    }
+    .texto p{
+        font-size: 1.1em;
+        margin-left: 5%;
+       
+    }
+
+    button{
+        margin-left: 5%;
+        margin-top: 10px;
+      
+    }
+}
