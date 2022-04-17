@@ -1,0 +1,108 @@
+/*color palette #d7e7e9 #2c3037 #49463d */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Square+Peg&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #d7e7e9;
+    color: #2c3037;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        display: grid;
+    }
+    /* responsividade */
+}
+
+/* Menu */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #2c3037;
+    position: fixed;
+    width: 100%;
+}
+
+nav img {
+    height: 6em;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Square Peg', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: 30px;   
+}
+
+.menu:hover {
+    background-color: rgb(80, 80, 77);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.3s;
+
+}
+
+.login {
+    border: none;
+}
+
+.telaLogin{
+    border: none;
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 45%;
+	left: 50%;
+    border: none;
+    margin-top: 3em;
+}
+
+legend{
+	text-align: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inputLogin{
+	padding: 15px;
+	border-radius: 10px;
+	outline: none;
+	font-size: 18px;
+	margin: 10px;
+}
+
+.inputBox{
+	position: relative;
+
+}
+
+#submit a {
+    background-image: linear-gradient(to right, #d7e7e9 , #49463d);
+	color: #2c3037;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+}
+
+#submit {
+    border: none;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
