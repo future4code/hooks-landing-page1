@@ -18,18 +18,33 @@
         </nav>
     </header>
 
-    <main>			
-		<section class="telaLogin">
-			<fieldset name="login" method="post">
-				<legend><b>Login</b></legend>
-				<br>
-				<input autofocus class="inputLogin" name="email" type="text" placeholder="Email"><br>
-				<input class="inputLogin" name="senha" type="password" placeholder="Senha"><br>
-				<div><button id="submit" name="enviar"><a>Enviar</a></button></div><br>
-                <div><button id="submit" name="enviar"><a>Cadastro</a></button></div>
-			</fieldset>
-		</section>
-    </main>
+    <main>
+ 
+        <section class="login">
+             
+         <form action="submit">
+                 
+                 <fieldset class="cartao-loguin">
+                   <img class="imagem" src="./img/do-utilizador.png" alt="imagem de perfil">
+                     <div class="preencher">
+                       <label for="loguin">Usuario</label>
+                       <input type="text" name="Loguin" >
+                   </div>
+                   <div class="preencher">
+                       <label for="Senha">Senha</label>
+                       <input type="password" name="Senha" >
+                   </div >
+                   <button class="button"><span>Login </span></button>
+                  <div class="cadastro">
+                   <a href="cadastro.html">
+                       <p>Cadastre-se</p>
+                   </a>
+                  </div>
+                 </fieldset>
+                 
+             </form>
+          </section>
+     </main>
     
 </body>
 </html>
