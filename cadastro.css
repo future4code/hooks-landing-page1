@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .conteudo-principal{
@@ -37,19 +38,19 @@
     font-size: 3em;
     margin-bottom: 30px;
     font-family: 'Satisfy', cursive;
-    background-color:  	 	 	#363636;
+ 
     border-radius: 10px 10px;
-    color: white;
-    box-shadow: 10px 10px 20px 20px  	 	#87CEFA;
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 20px 20px  	 	#948d8d;
 }
 
 fieldset{
     border: none;
 }
 form{
-    background-color:#A9A9A9;
+    background-color:#ffffff;
     border-radius: 40px 30px;
-    box-shadow: 10px 10px 20px 20px  	 	#87CEFA;
+    box-shadow: 10px 10px 20px 20px  	 	#6592ad;
     
     
 }
@@ -60,13 +61,13 @@ form{
 .cadastro label{
     font-size: 25px;
     font-family: 'Source Code Pro', monospace;
-    color: azure;
+    color: rgb(0, 0, 0);
     
 }
 
 .cadastro input{
     width: 20em;
-    border: none;
+    
 }
 
 
@@ -102,8 +103,15 @@ button:hover{
     color: white;
     margin-left: 50px;
 }
+.imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .imagem-coroa{
     width: 100px;
+    margin-top: 10vw;
+    
     
     
 }
@@ -115,6 +123,11 @@ button:hover{
     font-weight: 100px;
 }
 
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .voltar{
     text-decoration: none;
     border: 1px solid black;

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>4Comfort</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -31,8 +33,8 @@
             <h3>LANÇAMENTOS</h3> 
             <img class="folder" src="./img/globoShoes.png" alt="">
         <section class="conteudo-lançamento">
-        <div class="lançamento">
-             <a href="">
+        <div data-aos="fade-right" data-aos-duration="1000" class="lançamento">
+             <a href="./colecoes.html">
                 <img src="./img/lançamento2.jpg" alt="Sapato-Lançamento">
              <h2>Sneaker Branco-Azul</h2>
                 <p>R$300,00</p>
@@ -40,16 +42,16 @@
            
          </div>
             
-         <div class="lançamento">
-             <a href="">
+         <div data-aos="fade-up-right" data-aos-duration="1000" class="lançamento">
+             <a href="./colecoes.html">
                 <img src="./img/allblack.jpg" alt="Sapato-Lançamento">
                 <h2>Sneaker All-Black</h2>
                 <p>R$200,00</p>
             </a>
          </div>
 
-        <div class="lançamento">
-            <a href="">
+        <div data-aos="fade-left" data-aos-duration="1000" class="lançamento">
+            <a href="./colecoes.html">
              <img  src="./img/1.jpg" alt="Sapato-Lançamento">
              <h2>Sneaker Branco-Preto</h2>
              <p>R$250,00</p>
@@ -58,7 +60,7 @@
         
        </section>
     </main>
-   <div class="club">
+   <div  data-aos="flip-down" data-aos-duration="1000"  class="club">
        <div class="texto">
        <h2>
            Comfort-Club
@@ -109,5 +111,9 @@
 
 
     </footer>
+
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

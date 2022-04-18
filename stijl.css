@@ -4,8 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #d7e7e9;
-    color: #2c3037;
     box-sizing: border-box;
 }
 
@@ -42,7 +40,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30vh;
+    margin-top: 25vh;
      padding: 1.5em;
 }
 

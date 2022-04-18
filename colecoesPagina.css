@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     background-color: #d7e7e9;
+    
 }
 
 body{
@@ -17,6 +18,40 @@ header{
     flex-direction: row;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(26, 24, 24);
+    position: fixed;
+    width: 100%;
+}
+
+nav img {
+    height: 6em;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+}
+.menu {
+    text-decoration: none;
+    font-family: 'Square Peg', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: 30px;
+   
+}
+
+.menu:hover {
+    background-color: rgb(80, 80, 77);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    transition-duration: 0.3s;
+
+}
 main{
     display:flex;
     flex-direction: column;
@@ -29,48 +64,10 @@ main{
     flex-direction: row;
 }
 
-.containerNAV{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #d7e7e9;
-    border-bottom: 1px solid rgb(26, 24, 24);
-    position: fixed;
-    width: 100%;
-    flex-wrap: wrap;
-
-}
-
-.containerNAV img{
-    height: 5em;
-    text-align: center;
-}
-
-.menu{
-    text-decoration: none;
-    color: black;
-    text-align: center; 
-    margin: 30px;
-    flex-wrap: wrap;
-
-}
-
-.menu:hover{
-    background-color: rgb(80, 80, 77);
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    transition-duration: 0.3s;
-}
-
-.colecaoBody{
-    padding:3%;
-
-    display: flex;
-    flex-direction: column;
-
-    flex-wrap: wrap;
-    flex: 1 1 300px
+.colecaoBody {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
 
 }
 
@@ -96,7 +93,7 @@ main{
 
 } 
 /* #d7e7e9 #2c3037 #49463d */
-.blocoTenis img{
+.colecoesImagemTenis{
 width: 45%;
 height: 70%;
 border:8px inset #49463d;
@@ -105,6 +102,17 @@ background: white;
 flex-wrap: wrap;
 border-radius: 10px;
 
+}
+
+.coleçoes-lançamento{
+    width: 45%;
+    height: 70%;
+    box-shadow: 5px 5px 10px 20px rgb(255, 0, 0);
+    margin:2%;
+    background: white;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
 }
 
 .TituloCOLECAO{
@@ -138,7 +146,7 @@ flex-wrap: wrap;
     width: 100vh;
     font-size: 150%;
     flex-wrap: wrap;
-    }
+}
 
 
 
@@ -148,7 +156,7 @@ flex-wrap: wrap;
     width: 100%;
     height: 10vw;
     
-    }
+}
     
     .footerMenus{
         display: flex;
@@ -163,6 +171,7 @@ flex-wrap: wrap;
         margin: 10%;
         color: #49463d; 
         font-weight: bold;
+        
     
     }
     .footTituloMenu{
@@ -183,12 +192,20 @@ flex-wrap: wrap;
 
 
 
-@media screen and (max-width:375px ){
-
+@media screen and (max-width:480px ){
+    .colecaoBody{
+        display: flex;
+        flex-direction: column;
+    }
     .footerMenus{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-         
+        font-size: 0.5em; 
+}
+    .footTituloMenu{
+        font-size: 1em;
+    }
+   
 }
