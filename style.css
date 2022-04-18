@@ -19,10 +19,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
     border-bottom: 1px solid rgb(26, 24, 24);
     position: fixed;
     width: 100%;
+    
 }
 
 nav img {
@@ -103,16 +103,18 @@ h1{
     padding: 20px;
     margin-left: 39%;
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .lançamento {
     box-shadow: 5px 5px 5px 5px rgb(100, 89, 89);
     margin-top: 10px;
     margin-bottom: 15px;
+    
 }
 
 .lançamento img {
-    width: 20em; 
+    width: 15em; 
     
 }
 
@@ -138,7 +140,7 @@ a:hover{
 
 /* Comfort Club */
 .club{
-    color: white;
+    color: rgb(10, 10, 10);
     width: 100%;
     padding: 30px;
     text-align: center;
