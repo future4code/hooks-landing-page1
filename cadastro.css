@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Satisfy&family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+
+/* CADASTRO */
+
+.div-imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.conteudo-imagem{
+    width: 13em;
+    margin: 3em;
+}
+
+/* Formulario */
+.conteudo-formulario{
+    margin: 5em;
+}
+.conteudo-formulario h2{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+    font-family: 'Satisfy', cursive;
+ 
+    border-radius: 10px 10px;
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 20px 20px  	 	#948d8d;
+}
+
+fieldset{
+    border: none;
+}
+form{
+    background-color:#ffffff;
+    border-radius: 40px 30px;
+    box-shadow: 10px 10px 20px 20px  	 	#6592ad;
+    
+    
+}
+.cadastro{
+    padding: 3.5em;
+}
+
+.cadastro label{
+    font-size: 25px;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(0, 0, 0);
+    
+}
+
+.cadastro input{
+    width: 20em;
+    
+}
+
+
+/* botao */
+
+button{
+    padding: 0.5em;
+    background-color: beige;
+    margin-left: 5em;
+    margin-bottom: 10px;
+    border: none;
+    width: 10%;
+}
+
+button:hover{
+    background-color: rgb(55, 22, 87);
+    color: white;
+}
+
+/* CONFIRMAÇÃO */
+.confirmação{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.botao-confirmar{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color:  	#008080;
+    color: white;
+    margin-left: 50px;
+}
+.imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imagem-coroa{
+    width: 100px;
+    margin-top: 10vw;
+    
+    
+    
+}
+
+.paragrafo{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 100px;
+}
+
+.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.voltar{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #836FFF;
+    color: white;
+}

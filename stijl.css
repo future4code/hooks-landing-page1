@@ -1,0 +1,136 @@
+/*color palette #d7e7e9 #2c3037 #49463d */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Square+Peg&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(173,38,150);
+    background: linear-gradient(0deg, rgba(173,38,150,1) 14%, rgba(63,56,140,1) 54%);
+   
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.logo img{
+    width: 10em;
+    height: 10em;
+    margin-top: 30vw;
+   
+}
+.imagem{
+   height: 3em;
+   width: 3em; 
+   margin-left: 13vh;
+   margin-top: 10px;
+}
+
+.cartao-loguin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25vh;
+     padding: 1.5em;
+}
+
+.preencher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:30px;
+    
+}
+
+.preencher label{
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+
+.cadastro{
+    text-align: center;
+    margin-top: 10px;
+  
+} 
+
+.cadastro a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+}
+
+.cadastro u{
+    color: black;
+}
+
+/* BOTAO */
+.button {
+    border-radius: 4px;
+    background-color: rgb(142, 142, 150);
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 2px;
+    
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    /* Menu */
+    
+    nav {
+        width: 100%;
+    }
+    
+    nav img {
+        height: 3em;
+        
+    }
+
+    .menu {
+        
+        font-size: 1.5em;
+       
+    }
+
+  
+  }
